@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Resort</title>
+	<link rel="stylesheet" type="text/css" href="style1.css">
+</head>
+<body>
+	<div class="top-meun">
+		<div class="body-meun">
+			<div class="logo">
+				<img src="Image/battambang-resort-logo-purple.png">
+			</div>
+			<div class="meun">
+				<ul>
+					<li><a href="#">Homes</a></li>
+					<li><a href="#">Restaurant</a></li>
+					<li><a href="#">Garden</a></li>
+					<li><a href="#">Battambang</a></li>
+					<li><a href="#">Services</a></li>
+					<li><a href="#">Videos</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div>
+		<marquee direction="right">
+			<h2 class="title" id="title" onmouseover="ch_title()" onmouseout="ch_oldtitle()" onclick="ch_title1()">
+				เอือน ภูมิรา
+			</h2>
+		</marquee>
+	</div>
+</body>
+<script>
+	function ch_title(){
+		document.getElementById("title").innerHTML="អឿន ភូមិរ៉ា";
+	}
+	function ch_oldtitle(){
+		document.getElementById("title").innerHTML="เอือน ภูมิรา";
+	}
+	function ch_title1(){
+		document.getElementById("title").innerHTML="OEUN PHOUMIRA";
+	}
+</script>
+</html>
