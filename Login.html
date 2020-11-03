@@ -19,7 +19,6 @@
             width: 960px;
             margin: auto;
         }
-
         #form {
             width: 450px;
             height: 240px;
@@ -27,8 +26,9 @@
             background-color: rgba(160, 22, 141, 0.7);
             margin-top: 150px;
             margin-left: 210px;
-            padding-top: 100px;
+            padding-top: 50px;
             border-radius: 30px;
+			box-shadow: 0 0 35px gold;
         }
         label{
             font-family: "Kh Content";
@@ -71,12 +71,22 @@
             background-color: red;
             color:white;
         }
+		div > h1{
+			background: linear-gradient(to left, #ff0000 0%, #0000ff 100%);
+			background-clip: text;
+			-webkit-background-clip: text;
+			color: transparent;
+			font-size: 2.5em;
+		}
     </style>
 </head>
 
 <body>
     <div class="container">
         <div id="form">
+			<div>
+				<h1 style="margin-top: 0px;text-align: center;">Login-Form</h1>
+			</div>
             <form>
                 <div>
                     <label>Username</label>
